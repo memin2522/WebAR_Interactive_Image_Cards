@@ -1,0 +1,14 @@
+{
+  "name": "webar-interactive-image-cards",
+  "version": "1.0.0",
+  "description": "WebAR app that recognises printed cards and shows interactive 3D content with an information panel on each one.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "npx --yes serve@14.2.4 -l 8000 .",
+    "test": "node --test \"tests/**/*.test.js\""
+  }
+}
